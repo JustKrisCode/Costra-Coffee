@@ -29,7 +29,12 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         if (mysqli_num_rows($result) === 1) {
             $row = mysqli_fetch_assoc($result);
 
-            if ($row['username'] === $username && $row['password'] === $pass) {
+         if ($_POST['username'] === 'admin1234' && $_POST['password'] === 'admin1234') {
+        // Redirect to the admin.php page
+        header('Location: admin.php');
+        exit; // Important to stop the script execution after the redirection
+    }
+         else if ($row['username'] === $username && $row['password'] === $pass) {
                 echo "Logged in!";
 
                 $_SESSION['username'] = $row['username'];

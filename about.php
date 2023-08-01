@@ -60,11 +60,7 @@
 
 							<ul class="dropdown">
 								<li>
-									<a href="#">Location</a>
-								</li>
-
-								<li>
-									<a href="#">News</a>
+									<a href="location.php">Location</a>
 								</li>
 							</ul>
 						</li>
@@ -95,6 +91,7 @@
 			<figure class="forme-img">
 				<img src="assets/images/smallLogo.png" alt="">
 			</figure><!-- /.forme-img -->
+			
 			<div class="forme__content">
 				<p><span>At Costra Coffee</span>, we have always believed that you need passion to create excellence. Brothers Sergio and Bruno Costra also believed in this.
 				<br>

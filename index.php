@@ -67,10 +67,6 @@ session_start();
 								<li>
 									<a href="location.php">Location</a>
 								</li>
-
-								<li>
-									<a href="#">News</a>
-								</li>
 							</ul>
 						</li>
 					</ul>
@@ -81,9 +77,7 @@ session_start();
 					<?php
 					if(isset($_SESSION['username'])){
 						echo "
-						<button id='logout'>LOG OUT</button>					 	
-						<i class='fa-regular fa-user'></i>
-						<a href='#'><i class='fa-solid fa-cart-shopping'></i><sup>0</sup></a>";
+						<button id='logout'>LOG OUT</button>";
 					}
 					else{
 						echo "

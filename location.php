@@ -36,7 +36,7 @@
 	<header class="header">
 		<div class="shell__header">
 			<div class="header__inner">
-				<a href="#" class="logo">
+				<a href="index.php" class="logo">
 					<img src="assets/images/logo1.png" alt="logo">
 				</a>
 
@@ -66,10 +66,6 @@
 							<ul class="dropdown">
 								<li>
 									<a href="#">Location</a>
-								</li>
-
-								<li>
-									<a href="#">News</a>
 								</li>
 							</ul>
 						</li>
@@ -121,8 +117,6 @@
 				return;
 			}
 			const feature = features[0];
-
-
 		});
 	</script>
 	<!-- Footer -->
